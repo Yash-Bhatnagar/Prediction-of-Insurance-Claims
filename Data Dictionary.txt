@@ -1,0 +1,40 @@
+What is a claim?
+The claim is a formal request by a policy holder to a company for coverage or compensation for a
+covered loss or policy event. The company validates the claim and, once approved, issues payment to the insured or an approved interested party on behalf of the insured. 
+
+
+About the data:- 
+Data has been split into two groups: 
+• Training set -- The training set is used to build the ML model.
+• Testing set -- This dataset is used to make the predictions.
+
+Data Dictionary:- 
+Txt_Policy_Year -- To be shown in starting year 
+Txt_Location_RTA -- Location of the registering RTA 
+Txt_Policy_Code -- Type of the Policy 
+Txt_Class_Code -- Type of vehicle 
+Txt_Zone_Code -- Type of zone code
+Txt_CC_PCC_GVW_Code -- CC/ PCC/ GVW Code
+Txt_Colour_Vehicle -- Descriptive Entry 
+Txt_Permit_Code -- Permit Code 
+Txt_Nature_Goods_Code -- Nature of Goods Code 
+Txt_Road_Type_Code -- Road Type Code 
+Txt_Vehicle_Driven_By_Code -- Driver Type Code
+Txt_Driver_Exp_Code -- Driver Experience Code 
+Txt_Claims_History_Code -- Claims History Code 
+Txt_Driver_Qualification_Code -- Driver Education Code 
+Txt_Incurred_Claims_Code -- Claims Experience of previous years based on which premium is loaded 
+Boo_TPPD_Statutory_Cover_only -- If opted for restricted cover - "Y". If Wider coverapplicable - "N" 
+Num_Vehicle_Age -- Vehicle Age in years 
+Num_IDV -- Sum insured rounded off to rupees 
+Boo_Endorsement -- Y for Endorsement, otherwise N 
+Txt_Claim_Year -- To be shown in starting year - ending year format, e.g.: 2000-01 
+Date_Accident_Loss -- Date of accident or loss 
+Txt_Place_Accident -- Name the place of accident 
+Date_Claim_Intimation -- Date of intimation of accident or loss 
+Txt_TAC_NOL_Code -- Nature of Loss Code 
+Boo_OD_Total_Loss -- Y if Total Loss, otherwise, N 
+Boo_AntiTheft -- Y if Antitheft discount is given, otherwise N 
+Boo_NCB -- Y if NCB discount given, otherwise N 
+Num_Net_OD_Premium -- Net OD Premium on which service tax is calculate rounded off to rupees
+DRV_CLAIM_STATUS -- Claim Status: Rejected or Closed 
